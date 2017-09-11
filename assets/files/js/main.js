@@ -9307,7 +9307,7 @@
                             ease: Expo.easeInOut,
                             onComplete: function() {
                                 switch ($(".element-clone").remove(), w.resetSlide(L), "hello" !== t && TweenMax.set("." + t + " h1", {
-                                    borderLeft: "15px solid #2196f3"
+                                    borderLeft: "15px solid #1DE9B6"
                                 }), t) {
                                     case "hello":
                                         w.enterHello();
@@ -9350,7 +9350,7 @@
                             opacity: 1,
                             width: 0
                         }), TweenMax.set("." + t + " h1", {
-                            borderLeft: "0 solid #2196f3",
+                            borderLeft: "0 solid #1DE9B6",
                             y: 0,
                             opacity: 1
                         }), TweenMax.set("." + t + " .bar .icon", {
@@ -9426,7 +9426,7 @@
                     key: "enterHello",
                     value: function() {
                         $(".hello h1 .text").html("&nbsp;"), TweenMax.to(".hello h1", .5, {
-                            borderLeft: "15px solid #2196f3"
+                            borderLeft: "15px solid #1DE9B6"
                         }), TweenMax.to(".hello .bar", .5, {
                             width: "100%",
                             ease: Expo.easeOut,
