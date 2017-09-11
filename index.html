@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Deepak Surya | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#2b2c33">
+    <meta name="msapplication-TileImage" content="/assets/files/images/favicon/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/files/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/files/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/files/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/files/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/files/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/files/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/files/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/files/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/files/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/files/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/files/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/files/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/files/images/favicon/favicon-16x16.png">
+    <style>
+      .circular,.loader{bottom:0;left:0;position:absolute;right:0;top:0;margin:auto}.loader{-webkit-box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.24);box-shadow:0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.24);background:#fff;border-radius:50%;height:50px;width:50px;z-index:10}.loader:before{content:'';display:block;padding-top:100%}.circular{-webkit-animation:rotate 2s linear infinite;animation:rotate 2s linear infinite;height:75%;-webkit-transform-origin:center center;transform-origin:center center;width:75%}.path{stroke-dasharray:1,200;stroke-dashoffset:0;-webkit-animation:dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;animation:dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;stroke-linecap:round}@-webkit-keyframes rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35}100%{stroke-dasharray:89,200;stroke-dashoffset:-124}}@keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35}100%{stroke-dasharray:89,200;stroke-dashoffset:-124}}@-webkit-keyframes color{0%,100%{stroke:#1DE9B6}}@keyframes color{0%,100%{stroke:#1DE9B6}}
+      
+    </style>
+    <link rel="stylesheet" href="assets/files/css/main.css">
+    <link rel="shortcut icon" href="favicon-16x16.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><a href="index.html#/hello/" data-name="hello" aria-label="Home"></a></div>
+      <button type="button" aria-label="Menu" class="menu"><span class="box tl"></span><span class="box tr"></span><span class="box bl"></span><span class="box br"></span></button>
+      <div class="header-wrap">
+        <nav itemscope itemtype="http://schema.org/SiteNavigationElement" class="primary-nav">
+          <ul>
+            <li><a href="index.html#/hello/" data-name="hello" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ho</span><span class="full">home</span></span><span class="icon icon-infinite"></span></a></li>
+            <li><a href="index.html#/about/" data-name="about" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ab</span><span class="full">about</span></span><span class="icon icon-about"></span></a></li>
+            <li><a href="index.html#/achievements/" data-name="achievements" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ac</span><span class="full">achievements</span></span><span class="icon icon-achievements"></span></a></li>
+            <li><a href="index.html#/coding/" data-name="coding" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Co</span><span class="full">coding</span></span><span class="icon icon-coding"></span></a></li>
+            <li><a href="index.html#/design/" data-name="design" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">De</span><span class="full">design</span></span><span class="icon icon-design"></span></a></li>
+            <li><a href="index.html#/contact/" data-name="contact" rel="nofollow" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ct</span><span class="full">contact</span></span><span class="icon icon-contact"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="loader">
+      <svg viewbox="25 25 50 50" class="circular">
+        <circle cx="50" cy="50" r="18" fill="none" stroke-width="3" stroke-miterlimit="10" class="path"></circle>
+      </svg>
+    </div>
+    <main id="main">
+      <section class="hello">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-10 col-offset-1">
+              <h1><span data-text="Hello World..." class="text">Hello World...</span><span class="bar"></span></h1>
+              <p>I'm  <a href="index.html#/about/" data-text="Deepak Surya,"><span>Deepak Surya,</span></a> a Designer and a Developer with 3 years of industry experience, specializing in developing pixel perfect websites quickly without sacrificing code quality and ensuring that users have the best UX they can get in a site.</p>
+              <p>Get to know a bit more  <a href="index.html#/about/" data-text="about my skills"><span>about my skills</span></a> or feel free to look around my  <a href="index.html#/coding/" data-text="coding"><span>coding</span></a> and  <a href="index.html#/design/" data-text="design"><span>design</span></a> works.</p>
+              <hr>
+              <nav>
+                <ul>
+                  <li><a href="index.html#/about/" data-name="about" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ab</span><span class="full">about</span></span><span class="icon icon-about"></span></a></li>
+                  <li><a href="index.html#/achievements/" data-name="achievements" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ac</span><span class="full">achievements</span></span><span class="icon icon-achievements"></span></a></li>
+                  <li><a href="index.html#/coding/" data-name="coding" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Co</span><span class="full">coding</span></span><span class="icon icon-coding"></span></a></li>
+                  <li><a href="index.html#/design/" data-name="design" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">De</span><span class="full">design</span></span><span class="icon icon-design"></span></a></li>
+                  <li><a href="index.html#/contact/" data-name="contact" class="element-box"><span class="text"><span aria-hidden="true" class="abbr">Ct</span><span class="full">contact</span></span><span class="icon icon-contact"></span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// about" class="text">// about</span><span class="bar"><i class="icon icon-about"></i></span></h1>
+              <div class="wrap">
+                <div class="col-l col-6">
+                  <p>As an <strong>aficianado</strong>, I love being challenged.  I like to  <strong>create</strong> solutions,  <strong>imagine</strong> fun interaction and animation, and  <strong>develop</strong> the best experience.</p>
+                  <p>Most of the time I hand-code everything from scratch using my fav <a href="https://code.visualstudio.com" target="_blank" data-text="Visual studio code" rel="noopener">Visual Studio code.</a>  I use HTML5 Boilerplate and Twitter Bootstrap for rapid development if it is only necessary.</p>
+                </div>
+                <div class="col-r col-6">
+                  <h2>Skillset Breakdown</h2>
+                  <div class="skills">
+                    <div data-percent="95.0" class="skills__bar">
+                      <div class="skills__label">HTML5 / HTML</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="90.0" class="skills__bar">
+                      <div class="skills__label">Jade/ Pug</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="90.0" class="skills__bar">
+                      <div class="skills__label">CSS3 / CSS</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="80.0" class="skills__bar">
+                      <div class="skills__label">JavaScript / jQuery</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="70.0" class="skills__bar">
+                      <div class="skills__label">Adobe products</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="80.0" class="skills__bar">
+                      <div class="skills__label">Rails</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="90.0" class="skills__bar">
+                      <div class="skills__label">Python</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="90.0" class="skills__bar">
+                      <div class="skills__label">R</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="75.0" class="skills__bar">
+                      <div class="skills__label">Java</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="60.0" class="skills__bar">
+                      <div class="skills__label">PHP</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="75.0" class="skills__bar">
+                      <div class="skills__label">C, C++</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                    <div data-percent="30.0" class="skills__bar">
+                      <div class="skills__label">Julia</div>
+                      <div class="skills__percent"><span class="skills__percent-number">00.0</span><span class="skills__percent-unit">%</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="achievements">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// achievements" class="text">// achievements</span><span class="bar"><i class="icon icon-achievements"></i></span></h1>
+              <div class="wrap">
+                <div class="col-l col-6">
+                  <p>I have been fortunate enough to be featured in  <a href="youtube.com/c/dudescorp" target="_blank" itemprop="url" data-text="Radiosurgery" rel="noopener">Radiosurgery </a> when I least expected it. <strong>Hold</strong> on there's more, but this is it for now though. ^-^</p><a href="#" target="_blank" itemprop="url" rel="noopener" class="link"><img src="assets/files/images/#.png" alt="#"></a>
+                  <p> <a href="#" target="_blank" data-text="#" itemprop="url" rel="noopener" class="link beta">Give me some time!</a></p>
+                </div>
+                <div class="col-r col-6">
+                  <h2>Recognitions</h2>
+                  <div class="nominations">
+                    <ul>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="title">####
+                          <div class="light">####</div>
+                        </div>
+                        <div class="ui">
+                          <div class="ui-corner ui-corner__ul"></div>
+                          <div class="ui-corner ui-corner__ur"></div>
+                          <div class="ui-corner ui-corner__bl"></div>
+                          <div class="ui-corner ui-corner__br"></div>
+                          <div class="ui-pattern"></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="case-studies coding">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// coding" class="text">// coding</span><span class="bar"><i class="icon icon-coding"></i></span></h1>
+              <div class="wrap">
+                <div itemscope itemtype="http://schema.org/CreativeWork" class="col col-6"><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a></div>
+                <div itemscope itemtype="http://schema.org/CreativeWork" class="col col-6"><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="case-studies design">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// design" class="text">// design</span><span class="bar"><i class="icon icon-design"></i></span></h1>
+              <div class="wrap">
+                <div itemscope itemtype="http://schema.org/CreativeWork" class="col col-6"><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a></div>
+                <div itemscope itemtype="http://schema.org/CreativeWork" class="col col-6"><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a><a href="index.html#/case-study/" itemprop="url" class="card-link">
+                    <div class="card">
+                      <div class="card-wrap"><img src="assets/files/images/pixel.jpg" alt="image">
+                        <div class="card-text"><span aria-hidden="true" itemprop="name" class="card-title"></span>
+                          <div class="cta">See case study
+                            <div class="cta-icon"><i class="icon icon-chevron-right"></i><i class="icon icon-chevron-right"></i></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="case-study">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// case study: " class="text">// case study:</span><span class="bar"><i class="icon icon-about"></i></span></h1>
+              <div class="wrap">
+                <div class="case-study__wrap col-8 col-offset-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-12">
+              <h1><span data-text="// contact" class="text">// contact</span><span class="bar"><i class="icon icon-contact"></i></span></h1>
+              <p>If you want to have a chat about anything digital, UX, or collaborate, don't hesitate to connect with me.</p><br>
+              <p>I am always up for anything geeky. ^_^</p>
+              <div class="contact-icons">
+                <ul itemscope itemtype="http://schema.org/Organization">
+                  <li> <a href="mailto:ideepaksuryas@gmail.com" rel="noopener"><span class="vh">eMail</span><i class="icon icon-email"></i></a></li>
+                  <li> <a href="https://www.linkedin.com/in/deepak-surya-s-10926081/" target="_blank" itemprop="sameAs" rel="noopener"><span class="vh">LinkedIn</span><i class="icon icon-linkedin"></i></a></li>
+                  <li> <a href="https://github.com/DeepakSuryaS" target="_blank" itemprop="sameAs" rel="noopener"><span class="vh">GitHub</span><i class="icon icon-github"></i></a></li>
+                  <li> <a href="https://www.facebook.com/mindfreakmojo" target="_blank" itemprop="sameAs" rel="noopener"><span class="vh">Facebook</span><i class="icon icon-facebook"></i></a></li>
+                  <li> <a href="https://www.instagram.com/ideepaksuryas/" target="_blank" itemprop="sameAs" rel="noopener"><span class="vh">Instagram</span><i class="icon icon-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="error">
+        <div class="container">
+          <div class="wrap">
+            <div class="col-10 col-offset-1">
+              <h1><span data-text="// oops!" class="text">// oops!</span><span class="bar"><i class="icon icon-warning"></i></span></h1>
+              <p>Sorry, the page you are looking for does not exist</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/files/js/main.js"></script>
+  </body>
+</html>
