@@ -8907,7 +8907,7 @@
                             t.GoogleAnalyticsObject = r, t[r] = t[r] || function() {
                                 (t[r].q = t[r].q || []).push(arguments)
                             }, t[r].l = 1 * new Date, o = e.createElement(i), s = e.getElementsByTagName(i)[0], o.async = 1, o.src = n, s.parentNode.insertBefore(o, s)
-                        }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-77788698-2", "auto")
+                        }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-114972253-1", "auto")
                     }
                 }, {
                     key: "gaPageView",
