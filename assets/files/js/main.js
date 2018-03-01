@@ -8836,7 +8836,7 @@
         (0, o["default"])(function() {
             _.init(), new a["default"], new h["default"], g.init(), TweenMax.ticker.fps(60), (0, o["default"])(".lazy").lazyload({
                 effect: "fadeIn"
-            }), console.log("i am infinite imaginations!")
+            }), console.log("i am Deepak Surya.S!")
         }), "serviceWorker" in navigator && (window.addEventListener("load", function() {
             "serviceWorker" in navigator && (navigator.serviceWorker.register("/service-worker.js", {
                 scope: "./"
@@ -9032,8 +9032,8 @@
             O = n(P),
             A = t("../../molecules/navigation/navigation"),
             E = n(A),
-            M = t("../../../_assets/infiniteimaginations/js/_helper.js"),
-            D = t("../../../_assets/infiniteimaginations/js/_material.js"),
+            M = t("../../../_assets/files/js/_helper.js"),
+            D = t("../../../_assets/files/js/_material.js"),
             R = ($(document), $(window)),
             I = $(".header"),
             L = "hello",
@@ -9103,7 +9103,7 @@
                     }), $("p a").on("click", function() {
                         e.gaClickEvent("Link", $(this).data("text"))
                     }), $(".achievements a").on("click", function() {
-                        e.gaClickEvent("Link", "infinite imaginations: BETA")
+                        e.gaClickEvent("Link", "ideepaksuryas: BETA")
                     }), $(".case-study").on("click", ".navigation a", function() {
                         $(this).find("span").length ? e.gaClickEvent("Next", $(this).find(".navigation-label span").text()) : e.gaClickEvent("Next", $(this).find(".navigation-label").text())
                     }), $(".contact-icons a").click(function() {
@@ -9235,7 +9235,7 @@
                             case "adelphi-digital":
                                 x = 2;
                                 break;
-                            case "infinite-imaginations-beta":
+                            case "ideepaksuryas-beta":
                                 x = 3;
                                 break;
                             case "the-jewel-box":
@@ -9861,8 +9861,8 @@
             }();
         i["default"] = H, e.exports = i["default"]
     }, {
-        "../../../_assets/infiniteimaginations/js/_helper.js": 12,
-        "../../../_assets/infiniteimaginations/js/_material.js": 13,
+        "../../../_assets/files/js/_helper.js": 12,
+        "../../../_assets/files/js/_material.js": 13,
         "../../molecules/navigation/navigation": 19,
         "../galisteners/galisteners": 16,
         ScrollToPlugin: 5,
@@ -9889,7 +9889,7 @@
                     return i && t(e.prototype, i), n && t(e, n), e
                 }
             }(),
-            l = (t("../../../_assets/infiniteimaginations/js/_material"), t("../../../_assets/infiniteimaginations/js/_helper")),
+            l = (t("../../../_assets/files/js/_material"), t("../../../_assets/files/js/_helper")),
             u = $(document),
             c = $(window),
             h = $(".primary-nav"),
@@ -9997,8 +9997,8 @@
             }();
         i["default"] = p, e.exports = i["default"]
     }, {
-        "../../../_assets/infiniteimaginations/js/_helper": 12,
-        "../../../_assets/infiniteimaginations/js/_material": 13
+        "../../../_assets/files/js/_helper": 12,
+        "../../../_assets/files/js/_material": 13
     }],
     20: [function(t, e, i) {
         "use strict";
@@ -10009,7 +10009,7 @@
         Object.defineProperty(i, "__esModule", {
             value: !0
         });
-        var r = t("../../../_assets/infiniteimaginations/js/_helper"),
+        var r = t("../../../_assets/files/js/_helper"),
             o = function s() {
                 function t() {
                     var t = $(this).scrollTop(),
@@ -10024,7 +10024,7 @@
             };
         i["default"] = o, e.exports = i["default"]
     }, {
-        "../../../_assets/infiniteimaginations/js/_helper": 12
+        "../../../_assets/files/js/_helper": 12
     }]
 }, {}, [15]);
 //# sourceMappingURL=main.js.map
